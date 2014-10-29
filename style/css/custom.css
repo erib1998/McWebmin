@@ -1,0 +1,258 @@
+@font-face {
+font-family: 'Lobster';
+src: url('../fonts/Lobster.eot');
+src: url('../fonts/Lobster.otf') format('truetype'),
+     url('../fonts/Lobster.woff') format('woff'),
+     url('../fonts/Lobster.svg') format('svg');
+}
+
+body,
+html{
+	height: 100%;
+	font-family: Arial;
+	background: url(../../images/background.jpg) no-repeat fixed center;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+
+header{
+	background-color: #ecf0f1;
+	border-bottom: 5px solid #bdc3c7;
+}
+
+header .losange{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top:-120px;
+	left: 50%;
+	margin-left: -100px;
+	background-color: #e74c3c;
+	border: 10px solid #c0392b;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+
+header .losange p{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	position: absolute;
+	text-align: center;
+	top: 60px;
+	left: 75px;
+	font-family: Lobster;
+	color: white;
+	font-size: 12pt;
+}
+
+header .losange p .mc{
+	display: block;
+	font-size: 27pt;
+}
+
+header .losange p .webmin{
+	display: block;
+	font-size: 20pt;
+}
+
+header .losange p a,.mcwebmin a{
+	color: white;
+}
+
+header .losange p a:hover, .mcwebmin a:hover{
+	color: #c0392b;
+	text-decoration: none;
+}
+
+header nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header nav ul li a{
+	font-family: Lobster;
+	color: #2c3e50;
+	font-size: 24pt;
+}
+
+header nav ul li a:hover{
+	text-decoration: none;
+}
+
+.spacer-70{
+	width: 100%;
+	height: 70px; 
+}
+
+.mcwebmin{
+	font-family: Lobster;
+	color: white;
+	font-size: 27pt;
+	text-align: center;
+	padding: 10px;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -80px;
+	padding: 0 0 80px;
+}
+
+.box{
+	background-color: white;
+	/*margin-top: 100px;*/
+	border-top: 5px solid #c0392b;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.box > .title{
+	font-family: Lobster;
+	font-size: 16pt;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #2c3e50;
+	margin-bottom: 10px;
+}
+
+.news > .title{
+	font-weight: bold;
+	color: #16a085;
+}
+
+.content{
+	color: black;
+	padding-left: 5px;
+	border-left: 2px solid #bdc3c7;
+}
+
+form label{
+	display: block;
+	font-weight: bold;
+	
+}
+
+form input{
+	width: 100%;
+	height: 35px;
+	margin: inherit;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #bdc3c7;
+	padding: 5px;
+}
+
+form input:focus{
+	outline: 2px solid #c0392b;
+}
+
+form input[type="submit"]{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: #e74c3c;
+	border: none;
+	border-bottom: 3px solid #c0392b;
+	border-radius: 3px;
+}
+
+form input[type="submit"]:focus{
+	outline: none;
+}
+
+form input[type="submit"]:active{
+	border-bottom: 1px solid #c0392b;
+}
+
+#footer {
+  height: 60px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  margin-top: 20px;
+  border-top: 5px solid #c0392b;
+}
+
+#footer a.disconnect{
+	font-family: Lobster;
+	font-size: 17pt;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.alert{
+	width: 100%;
+	padding: 10px;
+	color: white;
+	border-bottom-width: 4px;
+	border-bottom-style: solid; 
+}
+
+.alert .close{
+	border: none;
+	background-color: inherit;
+	float: right;
+	line-height: 1;
+}
+
+.alert-success{
+	background-color: #2ecc71;
+	border-bottom-color: #27ae60;
+}
+
+.label-warning{
+	background-color: #e67e22;
+}
+
+.alert-danger{
+	background-color: #e74c3c;
+	border-bottom-color: #c0392b;
+}
+
+.label{
+	color: white;
+	font-weight: normal;
+	padding: 2px 4px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+.label-success{
+	background-color: #27ae60;
+}
+
+.label-warning{
+	background-color: #e67e22;
+}
+
+.label-danger{
+	background-color: #e74c3c;
+}
