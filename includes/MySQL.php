@@ -1,10 +1,10 @@
 <?php
 class MySQL {
 	
-	private $host = 'bjrb.eu';
-	private $dbname = 'mcwebmin';
+	private $host = 'localhost';
+	private $dbname = '';
 	private $user = 'root';
-	private $password = 'xqtcid!7';
+	private $password = '';
 
 	private $pdo = null;
 
