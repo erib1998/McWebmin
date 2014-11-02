@@ -5,6 +5,11 @@
 		return (!empty($req));
 	}
 
+	function updateIp($ip, $email){
+		global $bdd;
+		$req = $bdd->insert("UPDATE users SET ip = :ip WHERE email = :email", array("ip" => $ip, "email" => $email));
+	}
+
 	function getNews($how = 8){
 		global $bdd;
 		$req = $bdd->query("SELECT title,news,date FROM news ORDER BY id DESC LIMIT 0,$how");
