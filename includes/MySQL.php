@@ -1,17 +1,8 @@
 <?php
 class MySQL {
 	
-<<<<<<< HEAD
-	// private $host = 'bjrb.eu';
-	// private $dbname = 'mcwebmin';
-	// private $user = 'mcwebmin';
-	// private $password = 'xqtcid!7';
 	private $host = 'localhost';
 	private $dbname = 'mcwebmin';
-=======
-	private $host = 'localhost';
-	private $dbname = '';
->>>>>>> 73bf93022c86eb2bb96b3a0e99e432405bcaa0ad
 	private $user = 'root';
 	private $password = '';
 
