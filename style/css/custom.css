@@ -10,7 +10,7 @@ body,
 html{
 	height: 100%;
 	font-family: Arial;
-	background: url(../../images/background.jpg) no-repeat fixed center;
+	background: url(../../images/background.png) no-repeat fixed center;
 	-webkit-background-size: cover; /* pour Chrome et Safari */
 	-moz-background-size: cover; /* pour Firefox */
 	-o-background-size: cover; /* pour Opera */
@@ -173,6 +173,26 @@ form input[type="submit"]:focus{
 
 form input[type="submit"]:active{
 	border-bottom: 1px solid #c0392b;
+}
+
+#servers .server{
+	padding: 5px;
+	/*clear: both;*/
+}
+
+#servers .server .online{
+	color: green;
+}
+#servers .server .offline{
+	color: red;
+}
+
+#servers .server .name{
+	
+}
+
+#servers .server .slots{
+	float: right;
 }
 
 #footer {

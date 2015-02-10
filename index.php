@@ -28,7 +28,7 @@
 	if(!empty($req) && in_array('c_'.$page.'_'.$implode.'.php', $controllers)) $page .= '_'.$implode;
 	elseif(!in_array('c_'.$page.'.php', $controllers)) $page = '404';
 
-	// # On charge la page
+	// On charge la page
 	// - Modele
 	$models = scandir('./models');
 	if(in_array('m_'.$page.'.php', $models)) include_once('./models/m_'.$page.'.php');
