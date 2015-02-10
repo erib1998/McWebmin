@@ -3,7 +3,7 @@ class MySQL {
 	
 	private $host = 'bjrb.eu';
 	private $dbname = 'mcwebmin';
-	private $user = 'root';
+	private $user = 'mcwebmin';
 	private $password = 'xqtcid!7';
 
 	private $pdo = null;
@@ -39,16 +39,3 @@ class MySQL {
 		$req->closeCursor();
 	}
 }
-
-/*
-
-$MySQL = new $MySQL();
-$MySQL->connect();
-
-$MySQL->query("req");
-
-foreach($res as $shop) {
-	$shop['data']
-}
-
-*/
